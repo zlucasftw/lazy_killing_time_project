@@ -1,0 +1,62 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+/* var (--primary-text-color, color: #FFFFFF); */
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Castoro Titling", serif;
+    color: #FFFFFF;
+}
+
+header ol {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ol li {
+    width: 60px;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin: 0px 6px;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px;
+    font-weight: bold;
+}
+
+.image_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+img {
+    border-radius: 8px;
+    width: 600px; 
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

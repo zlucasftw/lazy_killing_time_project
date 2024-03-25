@@ -1,0 +1,4 @@
+[
+    {"id": 1, "image": "../img/galaxy01.jpg", "description": "Image of a galaxy", "name": "Galaxy"},
+    {"id": 2, "image": "../img/black_hole01webp", "description": "Image of a black-hole", "name": "Black-Hole"} 
+]
