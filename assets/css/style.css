@@ -15,15 +15,24 @@
 header ol {
     display: flex;
     justify-content: flex-end;
+    margin: 100px;
 }
 
 header ol li {
-    width: 60px;
+    width: 100%;
     padding: 10px;
     list-style: none;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     margin: 0px 6px;
+/*     text-decoration: none;
+    list-style: none; */
+
+}
+
+header ol li a {
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -46,14 +55,18 @@ h1 {
 
 img {
     border-radius: 8px;
-    width: 600px; 
+    width: 600px;
+    height: 337px;
+  /*   height: 337vh; */
+/*     object-fit: scale-down;  */
+    object-fit: cover;
 }
 
 figure {
     position: relative;
 }
 
-figcaption {
+figure figcaption {
     position: absolute;
     bottom: 10px;
     width: 100%;
